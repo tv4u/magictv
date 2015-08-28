@@ -784,14 +784,14 @@ class Arirang(BaseChannel):
     def action_play_stream(self):
         self.plugin.set_stream_url('http://mta1-lh.akamaihd.net/i/urdu_1@151347/index_1000_av-p.m3u8')
 
-################
-## MTA ENGLIS ##
-################
+#################
+## MTA ENGLISH ##
+#################
 
 class Arirang(BaseChannel):
     playable = True
     short_name = 'MTAE'
-    long_name = 'MTA ENGLIS'
+    long_name = 'MTA ENGLISH'
     default_action = 'play_stream' 
 
     def action_play_stream(self):
